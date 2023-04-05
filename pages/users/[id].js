@@ -1,7 +1,7 @@
 import { useRouter } from "next/router"
 import styles from '../../styles/user.module.scss'
 import Head from "next/head";
-import MainContainer from "../components/MainContainer";
+import MainContainer from "../../components/MainContainer";
 
 export default function ({user}) {
     const {query} = useRouter();
